@@ -26,13 +26,14 @@
                     <li class="contact-list"><svg class=" mail"><use href="./img/symbol-defs.svg#mail"></use></svg>
                         <a href="mailto:info@devstudio.com " class="nav-mail">info@devstudio.com</a>
                     </li>
-                    <li class="contact-list"><svg class="phone"><use href="./img/symbol-defs#phone"></use></svg>
+                    <li class="contact-list"><svg class="phone"><use href="./img/symbol-defs.svg#phone"></use></svg>
                         <a href="tel:+380961111111" class="nav-phone">+38 096 111 11 11</a>
                     </li>
                 </ul>
             </nav>
         </header>
     </div>
+    
 <main>
 
     
@@ -246,7 +247,20 @@
             
     </div>
 </footer>
-            
+<div class="backdrop is-hidden data-backdrop">
+        <div class="modal">
+            <h1 class="modal-header">Оставьте свои данные, мы вам перезвоним</h1>
+            <form class="form">
+                <input type="text" name="username" placeholder="Имя">
+                <input type="text" name="username" placeholder="Телефон">
+                <input type="text" name="username" placeholder="Почта">
+                <input type="text" name="username" placeholder="Комментарий">
+            </form>
+            <button data-close-modal>close</button>
+        </div>
+        
+</div>
+        
 
 </body>
 </html>
