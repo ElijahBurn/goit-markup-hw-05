@@ -270,6 +270,10 @@ max-width: 1600px;
     
 }
 
+.profile-photo {
+    margin-bottom: 30px;
+}
+
 .crew .team-member:not(:last-child){
     margin-right: 30px;
 }
@@ -285,14 +289,16 @@ max-width: 1600px;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
 .sl {
-    margin-bottom: 24px;
     margin-top: 16px;
     align-items: center;
+}
+
+.social-links-item {
+    padding-bottom: 24px;
 }
 
 ul {
@@ -506,7 +512,10 @@ ul {
     margin-bottom: 0px;
 }
 
-
+.project-container {
+    margin-bottom: 24px;
+    padding-left: 24px;
+}
 
 .project-header {
     color: var(--title-text-color);
@@ -515,8 +524,8 @@ ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-bottom: 4px;
-    padding-left: 24px;
+    
+    
 }
 
 .project-description {
@@ -527,6 +536,5 @@ ul {
     line-height: 1.87;
     padding: 0px;
     margin: 0px;
-    margin-bottom: 24px;
-    padding-left: 24px;
+
 }

@@ -26,17 +26,26 @@ h1,h2,h3,h4,h5,h6 {
     box-sizing: inherit;
 }
 
+p {
+    
+}
+
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
+    margin-bottom: 30px;
 }
 
 ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+}
+
+h3 {
+    margin-bottom: 30px;
 }
 
 body {
@@ -80,7 +89,9 @@ body {
 /* Панель навигации */
 
 .header {
-    border-bottom: 1px solid #ECECEC
+    display: flex;
+    border-bottom: 1px solid #ECECEC;
+    
 }
 
 
