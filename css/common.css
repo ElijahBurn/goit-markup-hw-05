@@ -35,7 +35,6 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    margin-bottom: 30px;
 }
 
 ul {
@@ -147,8 +146,7 @@ nav {
 
 .site-nav .item {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+
 }
 
 .site-nav .item:not(:last-child) {
@@ -161,6 +159,14 @@ nav {
     position: relative;
     
 
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: var(--accent-color);
+    border-radius: 4px;
 }
 .item {
     position: relative;
@@ -195,9 +201,6 @@ nav {
     color: var(--accent-color);
 }
 
-.nav-link:hover {
-    color: var(--accent-color);
-}
 
 .nav-mail {
     color: var(--primary-text-color);
