@@ -20,6 +20,7 @@
     --icons-color: #AFB1B8;
 }
 
+
 /* Герой */
 
 
@@ -61,10 +62,6 @@ max-width: 1600px;
     border-radius: 4px;
     text-align: center;
     
-    /* position: absolute; */
-    bottom: 0px;
-    left: 50%;
-    transform: translate(-50%, 100%)
 }
 
 .backdrop {
@@ -282,6 +279,7 @@ max-width: 1600px;
     text-align: center;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 24px;
 }
 
 .crewman {
@@ -297,9 +295,6 @@ max-width: 1600px;
     align-items: center;
 }
 
-.social-links-item {
-    padding-bottom: 24px;
-}
 
 ul {
     display: flex;
@@ -321,6 +316,8 @@ ul {
     margin: 0;
     border: none;
     fill: var(--icons-color);
+    display: flex;
+    align-items: baseline;
     
 }
 
@@ -333,7 +330,7 @@ ul {
 }
 .link:hover {
     background-color: var(--accent-color);
-    fill: var(--background-color); 
+    fill: #fff;
 }
 /* Клиенты */
 
