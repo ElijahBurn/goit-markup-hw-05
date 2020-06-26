@@ -42,10 +42,10 @@ max-width: 1600px;
 
 .hero-container{
     position: absolute;
-    top: 200px;
-    bottom: 280px;
-    left: 452px;
-    right: 452px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     
 }
 
@@ -60,7 +60,9 @@ max-width: 1600px;
     letter-spacing: 0.06em;
     text-decoration: none;
     border-radius: 4px;
-    text-align: center;
+    margin-left: 50%;
+    margin-top: 40px;
+    transform: translate(-50%);
     
 }
 
@@ -319,6 +321,10 @@ ul {
     display: flex;
     align-items: baseline;
     
+}
+
+.social-links-item .link:hover .icon-social-links {
+    fill: #fff;
 }
 
 
