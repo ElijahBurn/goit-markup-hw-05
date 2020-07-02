@@ -481,6 +481,7 @@ ul {
     color: var(--background-color);
     font-weight: normal;
     font-size: 18px;
+    margin: 0;
     line-height: 28px;
     width: 370px;
     height: 284.71px;
@@ -488,7 +489,7 @@ ul {
     padding-left: 24px;
     padding-bottom: 63px;
     transform: translateY(150%);
-    margin: 0;
+    
     
 }
 
