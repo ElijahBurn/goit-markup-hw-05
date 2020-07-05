@@ -203,9 +203,6 @@ max-width: 1600px;
 }
 /* Услуги */
 
-.service {
-
-}
 
 .services-heading{
     font-weight: 700;
@@ -227,9 +224,6 @@ max-width: 1600px;
     position: relative;
 }
 
-.services-img {
-    
-}
 
 .services{
     background-color: var(--services-color);
@@ -400,9 +394,6 @@ ul {
 .clients-list:focus {
     border-color: var(--accent-color);
    }
-   .clients-list:active {
-    
-   }
 
 .client-icon {
     position: absolute;
@@ -423,9 +414,6 @@ ul {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    
-}
-.section .filter-section {
     
 }
 
@@ -486,9 +474,10 @@ ul {
 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     
+    
 }
 
-.details {
+.project-container .details {
     position: absolute;
     top: 0;
     left: 0;
@@ -501,12 +490,15 @@ ul {
     width: 370px;
     padding-top: 63px;
     padding-left: 24px;
-    padding-bottom: 63px;
-    transform: translateY(100%);
+    padding-bottom: 90px;
+    transform: translateY(150%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
 }
 
-
+.project-container:hover .details {
+    transform: translateY(0%);
+}
 
 
 .project:hover {
@@ -527,14 +519,11 @@ ul {
 }
 
 .project-container {
-    padding: 24px 20px;
     position: relative;
     overflow: hidden;
 }
 
-.project-container:hover {
-    transform: translateY(0);
-}
+
 
 .project-header {
     color: var(--title-text-color);
