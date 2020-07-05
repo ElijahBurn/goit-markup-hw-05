@@ -469,13 +469,9 @@ ul {
     margin-bottom: 30px;
     border: 1px solid #EEEEEE;
     padding-bottom: 20px;
-    position: relative;
-    
-
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-    
-    
 }
+
 
 .project-container .details {
     position: absolute;
@@ -487,13 +483,14 @@ ul {
     font-size: 18px;
     margin: 0;
     line-height: 28px;
-    width: 370px;
+    width: 380px;
+    height: 284.703px;
     padding-top: 63px;
     padding-left: 24px;
-    padding-bottom: 90px;
+    padding-bottom: 63px;
     transform: translateY(150%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    overflow: hidden;
+    
 }
 
 .project-container:hover .details {
